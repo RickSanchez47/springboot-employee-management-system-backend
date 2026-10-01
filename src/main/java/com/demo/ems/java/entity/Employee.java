@@ -5,6 +5,10 @@ import lombok.Setter;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
+@AllArgsConstructor
+@Setter
+@Getter
+@NoArgsConstructor
 @Entity
 @Table(name = "employees")
 public class Employee   {
