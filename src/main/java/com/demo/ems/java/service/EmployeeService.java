@@ -1,5 +1,7 @@
 package com.demo.ems.java.service;
 
-public class EmployeeService {
-    
+import com.demo.ems.java.dto.EmployeeDto;
+
+public interface EmployeeService {
+    EmployeeDto createEmployee(EmployeeDto employeeDto);
 }
